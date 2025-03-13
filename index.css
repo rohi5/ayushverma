@@ -438,4 +438,117 @@ html{
 .comment{
     margin-left: 20px;
 }
+@media (max-width: 400px) {
+    .logo1{
+        margin-left: 590px;
+    }
+    .word1{
+        margin-left: 145px;
+        padding-top: 0px;
+    }
+    .front-video{
+        visibility: hidden;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 0px;
+    }
+    .nav-element1,.nav-element2,.nav-element3{
+        margin-top: 10px;
+    }
+    .name {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 0;
+        margin-left: 65px;
+        margin-top: 35px;
+    }
+    .content{
+        height: 350px;
+    }
+    .exp {
+        font-size: 18px;
+        text-align: center;
+    }
+    .video1{
+     margin-left: 65px;
+     height: 550px;
+    }
+
+
+    .quote {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .page2{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .page2-content, .page3-content {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 100px;
+    }
+    .videos-content{
+       margin-left: 50px;
+        height: 60px;
+    }
+    .page2-text{
+        font-size: 50px;
+    }
+    .page3{
+        flex-direction: column;
+        width: 100px;
+        margin-left: 45px;
+        height: auto;
+    }
+    .page3-content{
+        margin-left: 220px;
+    }
+    .cut{
+        margin-left: 19px;
+    }
+    .video33-content{
+        height: auto;
+    }
+    .video32{
+        width: 350px;
+        height: min-content;
+        margin-top: 50px;
+    }
+    .trailer{
+        height: auto;
+        width: 380px;
+    }
+    .trailer1{
+        height: auto;
+        width: 350px;
+    }
+    .page2-text, .page3-text {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .socials{
+        height: 95px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .main-logo {
+        height: 80px;
+        width: 80px;
+    }
+    .main-logo-head{
+        margin-left: 45px;
+    }
+
+    .last-quote {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+}
 
