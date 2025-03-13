@@ -426,8 +426,8 @@ html{
     transform: translateX(0); /* Move to normal position */
 }
 @font-face {
-    font-family: 'GameOfSquids';
-    src: url('Game Of Squids.ttf') format('truetype');
+    font-family: 'Game Of Squids';
+    src: url('Game Of Squids.otf') format('truetype');
 }
 
 
