@@ -433,5 +433,7 @@ html{
     font-family :'futura';
     src: url('LEMONMILK-Light.otf') format('truetype');
 }
-
+.comment{
+    margin-left: 20px;
+}
 
