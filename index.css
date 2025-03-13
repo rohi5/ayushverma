@@ -425,6 +425,10 @@ html{
     opacity: 1; /* Make visible */
     transform: translateX(0); /* Move to normal position */
 }
+@font-face {
+    font-family: 'GameOfSquids';
+    src: url('Game Of Squids.ttf') format('truetype');
+}
 
 
 
