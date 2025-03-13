@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+}
+
+.navbar{
+    display: flex;  
+    justify-content: end;
+    height: 120px;
+    width: auto;
+    margin: auto; 
+    backdrop-filter: blur(3px);
+}
+.nav-element1{
+    margin-top: 40px;
+    margin-right: 120px;
+    
+
+}
+.nav-element2{
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.nav-element3{
+    margin-top: 40px;   
+    margin-right: 120px;
+}
+/* img{
+    width:1600.2px;
+    height:800px;
+    object-fit: cover;
+} */
+.word{
+    font-family: Game Of Squids;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.word1:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url(aelogo.png);
+    border-radius: 15px;
+}
+.logo1{
+    height: 50px;
+    margin-right: 550px;
+    margin-top: 35px;
+    display: flex;
+
+}
+.logo2{
+    height: 50px;
+    width: 50px;
+    background-image: url(pp.jpg);
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.logo3{
+    height: 50px;
+    width: 50px;
+    background-image: url(lightroom.png);
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.logo4{
+    height: 50px;
+    width: 50px;
+    background-image: url(photoshop.png);
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.content{
+    display: flex;
+}
+.name{
+    margin-left: 100px;
+    margin-top: 70px;
+    color: rgba(225, 9, 20,0.5);
+    font-family: Game Of Squids;
+    font-size: 90px;
+     font-weight: bold;
+     
+}
+.exp{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin-left: 60px;
+    color: aliceblue;
+}
+.instalink{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.button{
+    height: 40px;
+    width:200px;
+    background: none;
+    color: #f62681;
+    margin-left: 0px;
+    border: 2px solid  rgba(255, 255, 255, 1);
+    border-radius: 20px; 
+    cursor: pointer;
+    margin-top: 20px;
+  
+}
+.button:hover{
+    border: #f62681 solid ;
+    color: rgb(255, 255, 255);
+    
+}
+.quote{
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: Game Of Squids ;
+    display: grid;
+    place-items:center;
+    
+}
+.front-video{
+    width: 750px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-left: 150px;
+    
+}
+
+#bgvideo{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50px;
+    left: 0;
+    border-radius: 20px ;
+    opacity: 1; 
+    border: 5px solid #ffffff;;
+    /* mask-image: radial-gradient(red, green, blue)
+*/
+     
+} 
+.page2{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.video1{
+    width: 308px;
+    height: 550px;
+    border: 2px solid white;
+    margin-top: 60px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50px;
+    left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.page3{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.video32{
+    width: 700px;
+    height: 395px;
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.videos{
+    /* width: 350px; */
+    /* height: 620px; */
+    padding-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.trailer{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.trailer1{
+    width: 700px;
+    height: 395px;
+    padding-bottom: 0;
+    object-fit: fill;
+}
+.page2-content{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.videos-content{
+    width: 308px;
+    height: 150px;
+    /* border: 2px solid whitesmoke; */
+    margin-top: 0;
+   
+}
+.page3-content{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.video33-content{
+    width: 700px;
+    height: 395px;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 20px;
+}
+.page2-text{
+    color: rgb(238, 209, 209);
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: futura;
+    font-weight: 900;
+}
+
+.page3-text{
+    color: rgb(238, 209, 209);
+    font-size: 20px;
+    margin-left: 70px;
+    font-family: futura;
+    font-weight: 900;
+}
+.socials{
+    width: 100%;
+    height: 200px;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    /* font-family: Arial, Helvetica, sans-serif; */
+   
+    font-size: 50px;
+    font-family: Game Of Squids;
+}
+.logos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+.logos1{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 5%;
+    opacity: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-250px);
+        opacity: .5;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#ayush{
+    margin-left: 50px;
+    animation-name: slideInLeft;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    color: #f62681;
+    transition-behavior: smooth;
+
+}
+@keyframes slideInRight{
+    from{
+        transform: translateX(+250px);
+        opacity: .5;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#verma{
+    margin-left: 50px;
+    animation-name: slideInRight;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    color: #f62681;
+    transition-behavior: smooth;
+
+}
+.main-logo{
+    height: 150px;
+    width: 150px;
+}
+.main-logo-head{
+    display: flex;
+    justify-content: center;
+}
+.logo-div{
+    margin-left: 30px;
+}
+.Last-Div{
+    width: 100%;
+    height: 340px;
+    display: grid;
+    justify-content: center;
+    place-items: end;
+}
+.socials1{
+    display: grid;
+    place-items:center;
+}
+.last-quote{
+    font-family: Game Of Squids;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 250px;
+    
+}
+@keyframes slideInLeft1{
+    from{
+        transform: translateX(-350px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+#quote{
+    animation-name: slideInLeft1;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+   
+}
+#green{
+    color: rgb(0, 255, 145);
+}
+#red{
+    color: red;
+}
+
+
+.page2 {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+.page3  {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+
+.heading {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+.quote {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+
+.content {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+.mail {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+.whatsaap {
+    opacity: 0; /* Initially invisible */
+    transform: translateY(-150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+.insta {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(+150px); /* Start slightly below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+
+.visible {
+    opacity: 1; /* Make visible */
+    transform: translateX(0); /* Move to normal position */
+}
+
+
+
